@@ -10,6 +10,10 @@ class user:
    self.password = password
 
 def store_user(self):
-     
+
      user.user_list.append(self)
 
+def delete_user(self):
+
+      user.user_list.remove(self)
+      

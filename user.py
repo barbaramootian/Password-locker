@@ -8,3 +8,8 @@ class user:
    self.lastname = lastname
    self.username = username
    self.password = password
+
+def store_user(self):
+     
+     user.user_list.append(self)
+

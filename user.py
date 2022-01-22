@@ -27,5 +27,9 @@ def find_by_username(cls,username):
        if user.password == username:
            return user
         
-        
-     
+@classmethod
+def user_exist(cls,username):
+    for user in cls.user_list:
+        if user.username == username:
+            return True
+            return False

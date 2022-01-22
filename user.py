@@ -21,4 +21,11 @@ def delete_user(self):
 def display_users(cls):
     return cls.user_list
 
-    
+@classmethod
+def find_by_username(cls,username):
+   for user in cls.user_list:
+       if user.password == username:
+           return user
+        
+        
+     

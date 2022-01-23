@@ -16,13 +16,15 @@ Python
 
 ## Cloning
  * Open in the terminal 
- * git clone https://github.com/barbaramootian/Password-locker 
+ * git clone https://github.com/barbaramootian/PaSssword-locker 
  * cd Password Locker
  * code .
-
 ## Running the appplication
 To run the applicalion on you terminal run 
-$ python3 run.py
+ $ python3 run.py
 
+ ## Contact Information
+ * Email:barbara.mootian@student.moringaschool.com
+ * Linked In: https://www.linkedin.com/in/barbra-mootian-03132b1a8/
 ## Licence
-MIT @2022  Barbara Reson
+ MIT @2022  Barbara Reson

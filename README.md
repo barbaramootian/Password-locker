@@ -15,8 +15,10 @@ Python
 * Install python 3.8.10
 
 ## Cloning
- In the terminal 
+ * Open in the terminal 
  * git clone https://github.com/barbaramootian/Password-locker 
+ * cd Password Locker
+ * code .
 
 ## Running the appplication
 

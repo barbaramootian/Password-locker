@@ -21,7 +21,8 @@ Python
  * code .
 
 ## Running the appplication
-
+To run the applicalion on you terminal run 
+$ python3 run.py
 
 ## Licence
 MIT @2022  Barbara Reson

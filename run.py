@@ -102,57 +102,57 @@ def main():
                     else:
                         print('Your account cant be find')
 
-        # if choice == 2:
-        #     print('ACCOUNT')
-        #     print('*'*60)
+        if choice == 2:
+            print('ACCOUNT')
+            print('*'*60)
 
-        #     print('FIRSTNAME')
-        #     firstname = input()
+            print('FIRSTNAME')
+            firstname = input()
 
-        #     print('LASTNAME')
-        #     lastname = input()
+            print('LASTNAME')
+            lastname = input()
 
-        #     print('USERNAME')
-        #     username = input()
+            print('USERNAME')
+            username = input()
 
-        #     print('PASSWORD')
-        #     password = input()
+            print('PASSWORD')
+            password = input()
 
-        #     save_user(create_user(
-        #         firstname, lastname, username, password))
+            save_user(create_user(
+                firstname, lastname, username, password))
         
-        #     print('THANK YOU YOUR ACCOUNT HAS BEEN CREATED SUCCESSFUL')
-        #     while True:
+            print('THANK YOU YOUR ACCOUNT HAS BEEN CREATED SUCCESSFUL')
+            while True:
 
-        #         print(
-        #             f'Welcome {username},')
-        #         print(
-        #             ' 1) Save new password \n 2) Delete password')
+                print(
+                    f'Welcome {username},')
+                print(
+                    ' 1) Save new password \n 2) Delete password')
 
-        #         log_choice = int(input())
-        #         if log_choice == 1:
-        #             print('New accountname')
-        #             print('*'*100)
+                log_choice = int(input())
+                if log_choice == 1:
+                    print('New accountname')
+                    print('*'*100)
 
-        #             print('accountname name')
-        #             accountname = input()
+                    print('accountname name')
+                    accountname = input()
 
-        #             print('password')
-        #             password = input()
+                    print('password')
+                    password = input()
 
-        #             save_accountname(create_accountname(accountname, password))
+                    save_accountname(create_accountname(accountname, password))
 
-        #         elif log_choice == 2:
-        #             print("Enter the username you want to delete")
+                elif log_choice == 2:
+                    print("Enter the username you want to delete")
 
-        #             accountname= input()
-        #             if isexist_accountname(accountname):
-        #                 remove_accountname = (accountname)
-        #                 delete_accountname(remove_accountname)
+                    accountname= input()
+                    if isexist_accountname(accountname):
+                        remove_accountname = (accountname)
+                        delete_accountname(remove_accountname)
 
-        #             else:
-        #                 print(f'I cant find {accountname}')
-        #                 break
+                    else:
+                        print(f'I cant find {accountname}')
+                        break
 
     
 if __name__ == '__main__':
